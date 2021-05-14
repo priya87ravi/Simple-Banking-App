@@ -1,4 +1,4 @@
-# How it works
+# How it Works
 ADMIN
 
 Bank Admin is the default login available for the system.
