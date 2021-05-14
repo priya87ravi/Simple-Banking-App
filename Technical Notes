@@ -1,0 +1,8 @@
+The application ensures end to end authentication and authorization using ASPNetCore Identity. 
+Identity Service has been configured to enable authentication to evaluate the user login in Startup.cs
+"Customer" entity defines the user model for the application extending the ASPNetUsers table through the IdentityUsers class. This is the default class provided by identity to store user details.
+Default Admin User and roles in the application like "Bank Admin", "Teller" and "Customer" has been added to the users store and role store of Identity respectively on launching the application.
+Developed the database context using Model First EF Core, there are Customers (ASPNetUsers provided by Identity), Accounts, Payee, Account Activity and Payment History models which maps to their respective DB objects.
+The DataLayer is implemented using .Net Core Dependency Injection wherein the Concrete Entities are segregated from the client using abstraction and their corresponding dependency has been injected through the AddScoped service call in the Startup.cs
+The interfaces acts as mediator between the client and the DB updates.
+Not used any client side validation or scripts in this project to make use of .Net core and model validations extensively.
