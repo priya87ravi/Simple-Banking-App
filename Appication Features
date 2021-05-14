@@ -1,0 +1,7 @@
+This is a sample bank application to simulate a teller, bank admin and customer activities in a bank. 
+
+The application allows users to register themselves and get a unique Account number as a customer of the bank. Allows admin to create tellers for the bank as well.
+It features the transactional functionalities like withdrawal and deposit to customers accounts and finally allows users to view the transactions made so far.
+Bill pay feature enables users to add payees from other banks to pay bills and view the payment history.
+Customer accounts can be closed at any moment by the bank admin without any hassle.
+Customers can update their details in the system and that implies that the Admin can do so as well.
